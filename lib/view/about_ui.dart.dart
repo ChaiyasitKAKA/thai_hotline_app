@@ -55,11 +55,11 @@ class _AboutUIState extends State<AboutUI> {
               ClipRRect(
                 borderRadius: BorderRadius.circular(100),
                 child: Container(
-                  width:150,
-                  height: 150,
+                  width:200,
+                  height: 200,
                   color: Colors.black,
                   child: Image.asset(
-                    'assets/images/logo.png',
+                    'assets/images/kaka.jpg',
                     width: 100,
                     height: 100,
                     fit: BoxFit.cover
@@ -68,7 +68,7 @@ class _AboutUIState extends State<AboutUI> {
               ),
                 SizedBox(height: 20),
                 Text(
-              'รหัสนักศึกษา',
+              '6652410025',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -78,7 +78,7 @@ class _AboutUIState extends State<AboutUI> {
             ),
             SizedBox(height: 20),
                 Text(
-              'ชื่อ-สกุลนักศึกษา',
+              'ชัยสิทธิ เพิ่มผล',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -88,7 +88,7 @@ class _AboutUIState extends State<AboutUI> {
             ),
             SizedBox(height: 20),
                 Text(
-              'อีเมล์นักศึกษา',
+              's6652410025@sau.ac.th',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -98,7 +98,7 @@ class _AboutUIState extends State<AboutUI> {
             ),
             SizedBox(height: 20),
                 Text(
-              'รชื่อสาขาวิชา',
+              'DTI',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -108,7 +108,7 @@ class _AboutUIState extends State<AboutUI> {
             ),
             SizedBox(height: 20),
                 Text(
-              'ชื่อคณะ',
+              'ศิลปศาสตร์และวิทยาศาสตร์',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 18,

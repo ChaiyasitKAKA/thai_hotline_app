@@ -42,7 +42,7 @@ class _HomeUiState extends State<HomeUi> {
             icon: Icon(FontAwesomeIcons.circleExclamation),
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AboutUI()));
+                  MaterialPageRoute(builder: (context) =>  AboutUI()));
             },
           ),
         ],

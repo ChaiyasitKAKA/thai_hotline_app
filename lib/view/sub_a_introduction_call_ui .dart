@@ -3,9 +3,9 @@ import 'package:introduction_screen/introduction_screen.dart';
 
 PageViewModel insubA() {
   return PageViewModel(
-    titleWidget: const SizedBox(),
+    titleWidget:  SizedBox(),
     bodyWidget: Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100.0), 
+      padding:  EdgeInsets.symmetric(horizontal: 20.0, vertical: 100.0), 
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center, 
         mainAxisAlignment: MainAxisAlignment.center,
@@ -17,7 +17,7 @@ PageViewModel insubA() {
             fit: BoxFit.cover, 
           ),
 
-          const SizedBox(height: 40), 
+           SizedBox(height: 40), 
 
          
           Row(
@@ -48,7 +48,7 @@ PageViewModel insubA() {
             ],
           ),
 
-          const SizedBox(height: 40), 
+           SizedBox(height: 40), 
 
          
           Text(

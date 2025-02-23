@@ -25,28 +25,29 @@ class _IntroductionCallUiState extends State<IntroductionCallUi> {
           insubC(),
           insubD(),
         ],
-        done: const Text("โทรเลย",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+        done: Text("โทรเลย",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20,color: Colors.blue)),
         onDone: () {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => const HomeUi()),
+            MaterialPageRoute(builder: (context) =>  HomeUi()),
           );
         },
         
-        next: const Icon(Icons.navigate_next_outlined, size: 25, color: Colors.black),
-        skip: const Text("ข้าม",
+        next: Icon(Icons.navigate_next_outlined, size: 25, color: Colors.blue),
+        skip:  Text("ข้าม",
             style: TextStyle(
               fontWeight: FontWeight.bold, 
               fontSize: 20,
-              color: Colors.black,
+              color: Colors.blue,
               ),
               ),
         showSkipButton: true,
         dotsDecorator: DotsDecorator(
-          size: const Size.square(20.0,),
-          color: Colors.black26,
-          activeSize: const Size(25, 10.0),
+          size: Size.square(15.0,),
+          color: Colors.black,
+          activeSize:  Size(20, 20.0),
+          activeColor: Colors.blue,
           activeShape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(24.0),
           ),

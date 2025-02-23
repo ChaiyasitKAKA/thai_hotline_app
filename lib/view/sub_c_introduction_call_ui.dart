@@ -17,7 +17,7 @@ PageViewModel insubC() {
             fit: BoxFit.cover, 
           ),
 
-          const SizedBox(height: 40), 
+           SizedBox(height: 40), 
 
          
           Row(
@@ -44,7 +44,7 @@ PageViewModel insubC() {
             ],
           ),
 
-          const SizedBox(height: 40), 
+           SizedBox(height: 40), 
 
          
           Text(
